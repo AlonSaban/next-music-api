@@ -1,16 +1,54 @@
 .container {
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
+  height: 100%;
+  background-color: black;
+  /* overflow: hidden; */
+  color: white;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
+
+.center {
+  width: 100%;
+  /* overflow: hidden; */
+  overflow: hidden;
+}
+
+.center::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar {
+  height: auto;
+  display: block;
+  min-width: auto;
+  overflow: hidden;
+  background-repeat: repeat-y;
+  /* overflow: scroll; */
+  /* background-color: rgb(88, 103, 118); */
+  background-color: rgb(15, 15, 16);
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.player {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #1f1f1f;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.5, #1f1f1f), color-stop(0.9, rgba(255, 255, 255, 0.071)));
+
+  overflow: hidden;
+  bottom: 0;
+}
+
 
 .footer {
   display: flex;
