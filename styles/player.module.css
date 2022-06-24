@@ -3,14 +3,12 @@
   justify-content: center;
   width: 100%;
   color: rgba(255, 255, 255, 0.97);
-  /* box-shadow: 10px 30px 40px rgba(255, 255, 255, 0.1); */
   position: relative;
   left: 60px;
   align-items: baseline;
 }
 
 .container:after {
-  /* box-shadow: 0 30px 40px rgba(255, 255, 255, 0.1); */
   position: absolute;
   content: '';
 }
@@ -23,13 +21,10 @@
   display: flex;
   align-items: baseline;
   right: 0;
-  /* padding-left: 100px; */
   min-width: 250px;
-  /* flex-direction: column; */
 }
 
 .volumeValue {
-  /* padding-left: 50px; */
   position: relative;
   left: 50px;
 }

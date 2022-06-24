@@ -1,8 +1,6 @@
 .container {
-  /* padding: 0 2rem; */
   height: 100%;
   background-color: black;
-  /* overflow: hidden; */
   color: white;
 }
 
@@ -12,7 +10,6 @@
 
 .center {
   width: 100%;
-  /* overflow: hidden; */
   overflow: hidden;
 }
 
@@ -26,8 +23,6 @@
   min-width: auto;
   overflow: hidden;
   background-repeat: repeat-y;
-  /* overflow: scroll; */
-  /* background-color: rgb(88, 103, 118); */
   background-color: rgb(15, 15, 16);
 }
 

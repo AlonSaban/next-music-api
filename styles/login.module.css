@@ -11,7 +11,8 @@
 .img {
   position: fixed;
   top: 60px;
-  width: 20%;
+  height: auto;
+  width: 13%;
 }
 
 .loginButton {
@@ -26,4 +27,20 @@
   height: 95px;
   color: white;
   font-style: unset;
+}
+
+.footer {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 30px;
+
 }

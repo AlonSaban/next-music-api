@@ -1,19 +1,12 @@
 .container {
-  /* overflow-y: auto; */
   min-height: 100vh;
   width: 100%;
-  /* overflow: hidden; */
   scrollbar-width: none;
-  /* overflow-x: hidden; */
-  /* overflow-y: hidden; */
 }
 
 .containerList {
   display: flex;
-  /* overflow: hidden; */
   width: 100%;
-  /* overflow: scroll; */
-  /* overflow-y: auto; */
   flex-direction: column;
   align-items: baseline;
   justify-items: center;
@@ -37,7 +30,6 @@
   right: 0;
   border-radius: 30px;
   background-color: #1e1e1ec2;
-  /* padding: 5px; */
   padding-right: 3px;
   padding-left: 7px;
   border-color: #1e1e1ec2;
@@ -74,7 +66,6 @@
   display: flex;
   align-items: center;
   text-align: center;
-  /* justify-content: center; */
   justify-items: baseline;
 }
 
