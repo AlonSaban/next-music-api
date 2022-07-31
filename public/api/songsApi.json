@@ -1,0 +1,232 @@
+[
+  {
+    "id": "1",
+    "name": "Drive forever",
+    "thumbnail": "Drive forever thumbnail.jfif",
+    "artist": "",
+    "lyrics": "",
+    "duration": 226,
+    "source": "./api/Drive forever/song.mp3",
+    "playlist": "Chill"
+  },
+  {
+    "id": "2",
+    "name": "After dark",
+    "thumbnail": "",
+    "artist": "Mr.kitty",
+    "lyrics": "./After dark/",
+    "duration": 257,
+    "source": "./api/After dark/song.mp3",
+    "playlist": "Chill"
+  },
+  {
+    "id": "3",
+    "name": "Slow dancing in the dark",
+    "thumbnail": "",
+    "artist": "Joji",
+    "lyrics": "./Slow dancing in the dark/",
+    "duration": 217,
+    "source": "./api/Slow dancing in the dark/song.mp3",
+    "playlist": "Chill"
+  },
+  {
+    "id": "4",
+    "name": "Do I wanna know",
+    "thumbnail": "",
+    "artist": "Artic monkeys",
+    "lyrics": "./Do I wanna know/lyrics",
+    "duration": 273,
+    "source": "./api/Do I wanna know/song.mp3",
+    "playlist": "Chill"
+  },
+  {
+    "id": "5",
+    "name": "Between The Bars",
+    "thumbnail": "",
+    "artist": "Elliott Smith",
+    "lyrics": "./Between The Bars/lyrics",
+    "duration": 141,
+    "source": "./api/Between The Bars/song.mp3",
+    "playlist": "Chill"
+  },
+  {
+    "id": "6",
+    "name": "Glimpse of Us",
+    "thumbnail": "",
+    "artist": "joji",
+    "lyrics": "./Glimpse of Us/lyrics",
+    "duration": 233,
+    "source": "./api/Glimpse of Us/song.mp3",
+    "playlist": "Chill"
+  },
+  {
+    "id": "7",
+    "name": "Teenagers",
+    "thumbnail": "",
+    "artist": "My Chemical Romance",
+    "lyrics": "./Teenagers/lyrics",
+    "duration": 156,
+    "source": "./api/Teenagers/song.mp3",
+    "playlist": "pop rock"
+  },
+  {
+    "id": "8",
+    "name": "Tom's Diner (Cover)",
+    "thumbnail": "",
+    "artist": "AnnenMayKantereit",
+    "lyrics": "./Tom's Diner (Cover)/lyrics",
+    "duration": 205,
+    "source": "./api/Tom's Diner (Cover)/song.mp3",
+    "playlist": "pop rock"
+  },
+  {
+    "id": "9",
+    "name": "Still Waiting",
+    "thumbnail": "",
+    "artist": "Sum 41",
+    "lyrics": "./Still Waiting/lyrics",
+    "duration": 158,
+    "source": "./api/Still Waiting/song.mp3",
+    "playlist": "pop rock"
+  },
+  {
+    "id": "10",
+    "name": "Astronaut in the Ocean",
+    "thumbnail": "",
+    "artist": "Masked Wolf",
+    "lyrics": "./Astronaut in the Ocean/lyrics",
+    "duration": 132,
+    "source": "./api/Astronaut in the Ocean/song.mp3",
+    "playlist": "pop rock"
+  },
+  {
+    "id": "11",
+    "name": "Betty",
+    "thumbnail": "",
+    "artist": "Yung Gravy",
+    "lyrics": "./Betty/lyrics",
+    "duration": 147,
+    "source": "./api/Betty/song.mp3",
+    "playlist": "Rap"
+  },
+  {
+    "id": "12",
+    "name": "When I Grow Up",
+    "thumbnail": "",
+    "artist": "NF",
+    "lyrics": "./When I Grow Up/lyrics",
+    "duration": 211,
+    "source": "./api/When I Grow Up/song.mp3",
+    "playlist": "Rap"
+  },
+  {
+    "id": "13",
+    "name": "The Search",
+    "thumbnail": "",
+    "artist": "NF",
+    "lyrics": "./The Search/lyrics",
+    "duration": 316,
+    "source": "./api/The Search/song.mp3",
+    "playlist": "Rap"
+  },
+  {
+    "id": "14",
+    "name": "Space Oddity",
+    "thumbnail": "",
+    "artist": "David Bowie",
+    "lyrics": "./Space Oddity/lyrics",
+    "duration": 316,
+    "source": "./api/Space Oddity/song.mp3",
+    "playlist": "Chill"
+  },
+  {
+    "id": "15",
+    "name": "Godzilla",
+    "thumbnail": "",
+    "artist": "Eminem",
+    "lyrics": "./Godzilla/lyrics",
+    "duration": 210,
+    "source": "./api/Godzilla/song.mp3",
+    "playlist": "Rap"
+  },
+  {
+    "id": "16",
+    "name": "Lose Yourself",
+    "thumbnail": "",
+    "artist": "Eminem",
+    "lyrics": "./Lose Yourself/lyrics",
+    "duration": 320,
+    "source": "./api/Lose Yourself/song.mp3",
+    "playlist": "Rap"
+  },
+  {
+    "id": "17",
+    "name": "Fake Woke",
+    "thumbnail": "",
+    "artist": "Tom MacDonald",
+    "lyrics": "./Fake Woke/lyrics",
+    "duration": 244,
+    "source": "./api/Fake Woke/song.mp3",
+    "playlist": "Rap"
+  },
+  {
+    "id": "18",
+    "name": "I Dont Care",
+    "thumbnail": "",
+    "artist": "Tom MacDonald",
+    "lyrics": "./I Dont Care/lyrics",
+    "duration": 266,
+    "source": "./api/I Dont Care/song.mp3",
+    "playlist": "Rap"
+  },
+  {
+    "id": "19",
+    "name": "Agoraphobic",
+    "thumbnail": "",
+    "artist": "Corps Husband",
+    "lyrics": "./Agoraphobic/lyrics",
+    "duration": 131,
+    "source": "./api/Agoraphobic/song.mp3",
+    "playlist": "Rap"
+  },
+  {
+    "id": "20",
+    "name": "Indestructible",
+    "thumbnail": "",
+    "artist": "Disturbed",
+    "lyrics": "./Indestructible/lyrics",
+    "duration": 274,
+    "source": "./api/Indestructible/song.mp3",
+    "playlist": "pop rock"
+  },
+  {
+    "id": "21",
+    "name": "Little Dark Age",
+    "thumbnail": "",
+    "artist": "MGMT",
+    "lyrics": "./Little Dark Age/lyrics",
+    "duration": 300,
+    "source": "./api/Little Dark Age/song.mp3",
+    "playlist": "Chill"
+  },
+  {
+    "id": "22",
+    "name": "Down With The Sickness",
+    "thumbnail": "",
+    "artist": "Disturbed",
+    "lyrics": "./Down With The Sickness/lyrics",
+    "duration": 216,
+    "source": "./api/Down With The Sickness/song.mp3",
+    "playlist": "pop rock"
+  },
+  {
+    "id": "23",
+    "name": "The Diary of Jane",
+    "thumbnail": "",
+    "artist": "Breaking Benjamin",
+    "lyrics": "./The Diary of Jane/lyrics",
+    "duration": 198,
+    "source": "./api/The Diary of Jane/song.mp3",
+    "playlist": "pop rock"
+  }
+]
