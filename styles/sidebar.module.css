@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 32vh;
+  align-items: baseline;
+  padding: 1rem 2rem 1rem 2.3rem;
+  margin-bottom: 50px;
+  color: white;
+  justify-content: space-around;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.containerList {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-items: center;
+  list-style-type: none;
+  padding-left: 0;
+  color: white;
+  font-size: 17px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  border-radius: 30%;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  width: 270px;
+  color: white;
+  background-color: #1f1f1f;
+  transition: all 1s ease-in-out;
+}
+
+.searchInput {
+  display: flex;
+  align-items: baseline;
+  border-radius: 30px;
+  height: 38px;
+  width: 100%;
+  background-color: rgb(45, 46, 46);
+  font-family: monospace;
+  border-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+.li {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+  margin-left: 3px;
+}
+
+.liSearch {
+  padding-top: 10px;
+  margin-right: 20px;
+  padding-bottom: 30px;
+}
+
+.li:hover {
+  cursor: pointer;
+}
+
+.playlist {
+  font-family: Monospace;
+  font-size: 25px;
+}
+
+.playlist:hover {
+  font-size: 27px;
+  transition: 0.7s ease;
+}
+
+.button {
+  border: none;
+  font-size: 17px;
+  background-color: inherit;
+  color: white;
+}
+
+.hr {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.button:hover {
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: 18px;
+}

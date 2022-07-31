@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.97);
+  position: relative;
+  left: 60px;
+}
+
+.container:after {
+  position: absolute;
+  content: '';
+}
+
+.duration {
+  position: relative;
+  display: flex;
+  align-items: center;
+  right: 200px;
+  min-width: 300px;
+}
+
+.player {
+  display: flex;
+  align-items: baseline;
+  /* justify-content: baseline; */
+  width: 100%;
+  /* position: relative; */
+  /* top: -10px; */
+}
+
+.video {
+  height: 0;
+}
+
+.buttons {
+  display: flex;
+  position: relative;
+  right: 100px;
+}
+
+.progressbar {
+  width: 400px;
+}
+
+.volume {
+  position: relative;
+  left: 50px;
+  display: flex;
+  align-items: baseline;
+  min-width: 250px;
+}
+
+.volumeValue {
+  position: relative;
+  left: 50px;
+}
+
+
+
+
+.durationValue {
+  margin: 15px;
+}
