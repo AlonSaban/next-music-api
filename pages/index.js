@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import { getSession } from 'next-auth/react'
 import SideBar from '../component/SideBar'
 import Player from '../component/Player'
 import Center from '../component/Center'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -31,13 +29,4 @@ export default function Home() {
       </div>
     </div>
   )
-}
-
-export async function getServerSideProps(context) {
-  const session = await getSession(context);
-  return {
-    props: {
-      session,
-    },
-  }
 }
