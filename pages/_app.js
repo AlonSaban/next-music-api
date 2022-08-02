@@ -5,11 +5,9 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   return (
-    <Provider store={store}>
-      <RecoilRoot>
-        <Component {...pageProps} />
-      </RecoilRoot>
-    </Provider>
+    <RecoilRoot>
+      <Component {...pageProps} />
+    </RecoilRoot>
   )
 }
 

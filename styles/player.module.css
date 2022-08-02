@@ -1,11 +1,11 @@
 .container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   width: 100%;
   color: rgba(255, 255, 255, 0.97);
   position: relative;
-  left: 60px;
+  /* left: 60px; */
 }
 
 .container:after {
@@ -17,17 +17,23 @@
   position: relative;
   display: flex;
   align-items: center;
-  right: 200px;
+  /* right: 200px; */
   min-width: 300px;
 }
 
 .player {
   display: flex;
+  position: relative;
+  right: 360px;
   align-items: baseline;
   /* justify-content: baseline; */
   width: 100%;
   /* position: relative; */
   /* top: -10px; */
+}
+
+.progressbar {
+  width: 760px;
 }
 
 .video {
@@ -36,12 +42,21 @@
 
 .buttons {
   display: flex;
+  height: 70px;
+  /* width: 200px; */
+  font-size: 100px;
+  justify-content: center;
   position: relative;
-  right: 100px;
+  right: 200px;
 }
 
-.progressbar {
-  width: 400px;
+.button {
+  background-color: inherit;
+  color: white;
+  margin: 1px;
+  width: 70px;
+  font-size: 40px;
+  border: none;
 }
 
 .volume {

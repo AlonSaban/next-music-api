@@ -8,6 +8,29 @@
   justify-content: space-evenly;
 }
 
+.song {
+  /* display: block; */
+  width: 300px;
+  height: 390px;
+  background-color: white;
+  color: black;
+  margin-bottom: 80px;
+  margin-top: 20px;
+  margin-right: 40px;
+  border: 1px solid rgba(50, 50, 50, 0.8);
+  border-radius: 10px;
+  /* padding: 20px; */
+  /* text-align: center; */
+}
+
+.songImg {
+  display: flex;
+  width: 300px;
+  height: 212px;
+  border-radius: 10px;
+
+}
+
 .information {
   display: flex;
   padding: 2px 0 10px 0;
@@ -16,16 +39,6 @@
 
 .avatar {
   margin-right: 12px;
-}
-
-.song {
-  width: 280px;
-  height: fit-content;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  border: 1px solid rgba(50, 50, 50, 0.8);
-  /* padding: 20px; */
-  /* text-align: center; */
 }
 
 .video {
