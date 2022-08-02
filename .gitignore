@@ -12,9 +12,6 @@
 /.next/
 /out/
 
-#public
-/public
-/public/
 
 # production
 /build
