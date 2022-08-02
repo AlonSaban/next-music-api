@@ -1,9 +1,10 @@
 import { useSetRecoilState, useRecoilValue } from 'recoil'
 import { songState, songIdSate } from '../atoms/songsAtom'
-import { playlistSongsState, playlistState } from '../atoms/playlistAtom'
+import { playlistCoverState, playlistState } from '../atoms/playlistAtom'
 import { Avatar, Card, CardContent, CardMedia, CircularProgress, Grid, Typography } from '@material-ui/core';
 import styles from '../styles/songsCard.module.css'
 import songsApi from '../public/api/songsApi.json'
+import playlistsApi from '../public/api/playlistsApi.json'
 
 
 export default function SongCard() {
@@ -11,14 +12,16 @@ export default function SongCard() {
   const setNewSongState = useSetRecoilState(songState)
   const setNewSongIdState = useSetRecoilState(songIdSate)
   const playlistId = useRecoilValue(playlistState);
+  const playlistImage = useRecoilValue(playlistCoverState);
   const songsArray = [];
-  const sortArray = songsArray.sort((a, b) => (a.name > b.name) ? 1 : (a.name < b.name) ? -1 : 0)
 
   for (let i = 0; i < songsApi.length; i++) {
     if (songsApi[i].playlist === playlistId) {
       songsArray.push(songsApi[i])
     }
   }
+  const sortArray = songsArray.sort((a, b) => (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0))
+
 
   const videoHandler = async (value) => {
     setNewSongIdState(value)
@@ -42,12 +45,6 @@ export default function SongCard() {
     return (
       <div key={song.id} className={styles.song}>
         <img onClick={() => videoHandler(song)} src={`/api/${song.name}/thumbnail.jpg`} className={styles.songImg} />
-        {/* <CardMedia
-            component="img"
-            onClick={() => videoHandler(song)}
-            image={`/api/${song.name}/thumbnail.jpg`}
-            alt="Live from space album cover"
-          /> */}
         <CardContent>
           <div className={styles.information}>
             <Avatar

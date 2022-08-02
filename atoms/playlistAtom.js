@@ -5,7 +5,7 @@ export const playlistState = atom({
   key: "playlistState",
   default: "Chill",
 })
-export const playlistSongsState = atom({
-  key: "playlistSongsState",
+export const playlistCoverState = atom({
+  key: "playlistCoverState",
   default: undefined
 })

@@ -67,7 +67,7 @@
     "lyrics": "./Teenagers/lyrics",
     "duration": 156,
     "source": "./api/Teenagers/song.mp3",
-    "playlist": "pop rock"
+    "playlist": "Pop Rock"
   },
   {
     "id": "8",
@@ -77,7 +77,7 @@
     "lyrics": "./Tom's Diner (Cover)/lyrics",
     "duration": 205,
     "source": "./api/Tom's Diner (Cover)/song.mp3",
-    "playlist": "pop rock"
+    "playlist": "Pop Rock"
   },
   {
     "id": "9",
@@ -87,7 +87,7 @@
     "lyrics": "./Still Waiting/lyrics",
     "duration": 158,
     "source": "./api/Still Waiting/song.mp3",
-    "playlist": "pop rock"
+    "playlist": "Pop Rock"
   },
   {
     "id": "10",
@@ -97,7 +97,7 @@
     "lyrics": "./Astronaut in the Ocean/lyrics",
     "duration": 132,
     "source": "./api/Astronaut in the Ocean/song.mp3",
-    "playlist": "pop rock"
+    "playlist": "Pop Rock"
   },
   {
     "id": "11",
@@ -197,7 +197,7 @@
     "lyrics": "./Indestructible/lyrics",
     "duration": 274,
     "source": "./api/Indestructible/song.mp3",
-    "playlist": "pop rock"
+    "playlist": "Pop Rock"
   },
   {
     "id": "21",
@@ -217,7 +217,7 @@
     "lyrics": "./Down With The Sickness/lyrics",
     "duration": 216,
     "source": "./api/Down With The Sickness/song.mp3",
-    "playlist": "pop rock"
+    "playlist": "Pop Rock"
   },
   {
     "id": "23",
@@ -227,6 +227,16 @@
     "lyrics": "./The Diary of Jane/lyrics",
     "duration": 198,
     "source": "./api/The Diary of Jane/song.mp3",
-    "playlist": "pop rock"
+    "playlist": "Pop Rock"
+  },
+  {
+    "id": "24",
+    "name": "Ashes",
+    "thumbnail": "",
+    "artist": "Stellar",
+    "lyrics": "./Ashes/lyrics",
+    "duration": 166,
+    "source": "./api/Ashes/song.mp3",
+    "playlist": "Pop Rock"
   }
 ]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "playlistName": "Chill",
+    "playlistImage": "Chill_IMAGE"
+  },
+  {
+    "id": 2,
+    "playlistName": "Pop Rock",
+    "playlistImage": "Pop Rock_IMAGE"
+  },
+  {
+    "id": 3,
+    "playlistName": "Rap",
+    "playlistImage": "Rap_IMAGE"
+  }
+]
