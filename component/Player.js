@@ -139,15 +139,15 @@ function Player() {
           : ''}
       </div>
       <div className={styles.buttons}>
-        <Button color="inherit">
-          <SkipPrevious onClick={() => revert()} />
-        </Button>
-        <Button onClick={setPlay} color="inherit">
-          {isPlaying ? <PauseCircleOutline fontSize="large" /> : <PlayCircleOutline fontSize="large" />}
-        </Button>
-        <Button color="inherit">
-          <SkipNext onClick={() => fastForward()} />
-        </Button>
+        <button color="inherit" className={styles.button}>
+          <SkipPrevious onClick={() => revert()} fontSize="inherit" />
+        </button>
+        <button onClick={setPlay} color="inherit" className={styles.button}>
+          {isPlaying ? <PauseCircleOutline fontSize="inherit" /> : <PlayCircleOutline fontSize="inherit" />}
+        </button>
+        <button color="inherit" className={styles.button}>
+          <SkipNext onClick={() => fastForward()} fontSize="inherit" />
+        </button>
       </div>
       <div className={styles.volume}>
         <Button onClick={setMute} color="inherit">

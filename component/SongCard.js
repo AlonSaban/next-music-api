@@ -41,31 +41,27 @@ export default function SongCard() {
 
     return (
       <div key={song.id} className={styles.song}>
-        <Grid>
-          <Card>
-            <CardMedia
-              component="img"
-              onClick={() => videoHandler(song)}
-              // sx={{ width: 151 }}
-              image={`/api/${song.name}/thumbnail.jpg`}
-              alt="Live from space album cover"
-            />
-            <CardContent>
-              <div className={styles.information}>
-                <Avatar
-                  className={styles.avatar}
-                  alt={song.artist}
-                  src={`/api/${song?.name}/artist.jpg`} />
-                <Typography variant="h6" component="div">
-                  {song.artist}
-                </Typography>
-              </div>
-              <Typography variant="h4">
-                {song.name}
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
+        <img onClick={() => videoHandler(song)} src={`/api/${song.name}/thumbnail.jpg`} className={styles.songImg} />
+        {/* <CardMedia
+            component="img"
+            onClick={() => videoHandler(song)}
+            image={`/api/${song.name}/thumbnail.jpg`}
+            alt="Live from space album cover"
+          /> */}
+        <CardContent>
+          <div className={styles.information}>
+            <Avatar
+              className={styles.avatar}
+              alt={song.artist}
+              src={`/api/${song?.name}/artist.jpg`} />
+            <Typography variant="h6" component="div">
+              {song.artist}
+            </Typography>
+          </div>
+          <Typography variant="h4">
+            {song.name}
+          </Typography>
+        </CardContent>
       </div>
     )
   })

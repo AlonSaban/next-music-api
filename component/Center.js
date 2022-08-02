@@ -13,14 +13,9 @@ export default function Center() {
           <h3 className={styles.playlistName}>{playlist}</h3>
         </div>
       </div>
-      <div className={styles.containerList}>
-        <div className={styles.grid}>
-        </div>
-      </div>
       <div className={styles.card}>
         <SongCard />
       </div>
     </div>
-
   )
 }
