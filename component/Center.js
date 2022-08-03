@@ -3,7 +3,6 @@ import { playlistCoverState, playlistState } from '../atoms/playlistAtom';
 import SongCard from './SongCard'
 import styles from '../styles/center.module.css';
 import playlistsApi from '../public/api/playlistsApi.json'
-import Playlist from './Playlist';
 
 export default function Center() {
   const playlist = useRecoilValue(playlistState)

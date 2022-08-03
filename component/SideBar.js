@@ -17,14 +17,21 @@ function SideBar() {
     }
   }
 
+  useEffect(() => {
+    console.log('its in')
+    for (let i = 0; i < songsApi.length; i++) {
+      if (songsApi[i].name === searchValue) {
+        console.log(`its a match ${songsApi[i].name}`)
+      }
+    }
+  }, [searchValue])
+
   const clickHanddler = async (playlist) => {
     setPlaylistId(playlist)
   }
 
   const search = (e) => {
-    // console.log(e.target.value)
     setSearchValue(e.target.value)
-
   }
 
   const playlistsNames = genres.map((playlist, index) => {
@@ -40,6 +47,7 @@ function SideBar() {
 
   return (
     <div className={styles.container}>
+      {/* <img src={'/icon.png'} className={styles.icon} /> */}
       <ul className={styles.containerList}>
         <li className={styles.liSearch}>
           <div className={styles.search}>
