@@ -9,12 +9,12 @@ export const songState = atom({
   }],
 })
 
-export const songLenght = atom({
-  key: "songLenght",
+export const songSearchState = atom({
+  key: "songSearchState",
   default: null,
 })
 
-export const songIdSate = atom({
+export const songIdState = atom({
   key: "songIdState",
   default: null,
 })
