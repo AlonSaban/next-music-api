@@ -1,6 +1,6 @@
 .container {
   display: inline-grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   width: 100%;
   height: auto;
   color: white;

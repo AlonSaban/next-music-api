@@ -1,16 +1,15 @@
-import { useState, useRef } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { PauseCircleOutline, PlayCircleOutline, SkipNext, SkipPrevious, VolumeMute, VolumeDown, VolumeUp, VolumeOff } from '@material-ui/icons';
-import { Button, Slider } from '@material-ui/core'
-import styles from '../styles/player.module.css'
-import { formatDuration } from './Util'
+import { Button, Slider, CircularProgress } from '@material-ui/core'
 import { useSetRecoilState, useRecoilValue } from 'recoil'
-import { songState, songIdSate } from '../atoms/songsAtom'
-import { useEffect } from 'react';
+import { songState, songIdState } from '../atoms/songsAtom'
+import { formatDuration } from './Util'
+import styles from '../styles/player.module.css'
 
 function Player() {
   const setPlayingState = useSetRecoilState(songState)
   const getPlayingValue = useRecoilValue(songState)
-  const getSongState = useRecoilValue(songIdSate)
+  const getSongState = useRecoilValue(songIdState)
   const [isPlaying, setIsPlaying] = useState(getPlayingValue[0].playingState)
   const [volume, setVolume] = useState(<VolumeUp fontSize="large" />)
   const videoRef = useRef(null);
@@ -37,6 +36,7 @@ function Player() {
 
   const setPlay = async (e) => {
     e.preventDefault();
+    if (!getSongState) return
     setIsPlaying(!isPlaying)
     setPlayingState(() => [
       {
@@ -105,6 +105,7 @@ function Player() {
   const handleChange = (e) => {
     videoRef.current.currentTime = progressBar.current.value
   }
+
 
   const video = () => {
 
