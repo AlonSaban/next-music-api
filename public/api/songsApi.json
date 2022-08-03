@@ -6,7 +6,7 @@
     "artist": "",
     "lyrics": "",
     "duration": 226,
-    "source": "./api/Drive forever/song.mp3",
+    "source": "./api/songs/Drive forever/song.mp3",
     "playlist": "Chill"
   },
   {
@@ -16,7 +16,7 @@
     "artist": "Mr.kitty",
     "lyrics": "./After dark/",
     "duration": 257,
-    "source": "./api/After dark/song.mp3",
+    "source": "./api/songs/After dark/song.mp3",
     "playlist": "Chill"
   },
   {
@@ -26,7 +26,7 @@
     "artist": "Joji",
     "lyrics": "./Slow dancing in the dark/",
     "duration": 217,
-    "source": "./api/Slow dancing in the dark/song.mp3",
+    "source": "./api/songs/Slow dancing in the dark/song.mp3",
     "playlist": "Chill"
   },
   {
@@ -36,7 +36,7 @@
     "artist": "Artic monkeys",
     "lyrics": "./Do I wanna know/lyrics",
     "duration": 273,
-    "source": "./api/Do I wanna know/song.mp3",
+    "source": "./api/songs/Do I wanna know/song.mp3",
     "playlist": "Chill"
   },
   {
@@ -46,7 +46,7 @@
     "artist": "Elliott Smith",
     "lyrics": "./Between The Bars/lyrics",
     "duration": 141,
-    "source": "./api/Between The Bars/song.mp3",
+    "source": "./api/songs/Between The Bars/song.mp3",
     "playlist": "Chill"
   },
   {
@@ -56,7 +56,7 @@
     "artist": "joji",
     "lyrics": "./Glimpse of Us/lyrics",
     "duration": 233,
-    "source": "./api/Glimpse of Us/song.mp3",
+    "source": "./api/songs/Glimpse of Us/song.mp3",
     "playlist": "Chill"
   },
   {
@@ -66,7 +66,7 @@
     "artist": "My Chemical Romance",
     "lyrics": "./Teenagers/lyrics",
     "duration": 156,
-    "source": "./api/Teenagers/song.mp3",
+    "source": "./api/songs/Teenagers/song.mp3",
     "playlist": "Pop Rock"
   },
   {
@@ -76,7 +76,7 @@
     "artist": "AnnenMayKantereit",
     "lyrics": "./Tom's Diner (Cover)/lyrics",
     "duration": 205,
-    "source": "./api/Tom's Diner (Cover)/song.mp3",
+    "source": "./api/songs/Tom's Diner (Cover)/song.mp3",
     "playlist": "Pop Rock"
   },
   {
@@ -86,7 +86,7 @@
     "artist": "Sum 41",
     "lyrics": "./Still Waiting/lyrics",
     "duration": 158,
-    "source": "./api/Still Waiting/song.mp3",
+    "source": "./api/songs/Still Waiting/song.mp3",
     "playlist": "Pop Rock"
   },
   {
@@ -96,7 +96,7 @@
     "artist": "Masked Wolf",
     "lyrics": "./Astronaut in the Ocean/lyrics",
     "duration": 132,
-    "source": "./api/Astronaut in the Ocean/song.mp3",
+    "source": "./api/songs/Astronaut in the Ocean/song.mp3",
     "playlist": "Pop Rock"
   },
   {
@@ -106,7 +106,7 @@
     "artist": "Yung Gravy",
     "lyrics": "./Betty/lyrics",
     "duration": 147,
-    "source": "./api/Betty/song.mp3",
+    "source": "./api/songs/Betty/song.mp3",
     "playlist": "Rap"
   },
   {
@@ -116,7 +116,7 @@
     "artist": "NF",
     "lyrics": "./When I Grow Up/lyrics",
     "duration": 211,
-    "source": "./api/When I Grow Up/song.mp3",
+    "source": "./api/songs/When I Grow Up/song.mp3",
     "playlist": "Rap"
   },
   {
@@ -126,7 +126,7 @@
     "artist": "NF",
     "lyrics": "./The Search/lyrics",
     "duration": 316,
-    "source": "./api/The Search/song.mp3",
+    "source": "./api/songs/The Search/song.mp3",
     "playlist": "Rap"
   },
   {
@@ -136,7 +136,7 @@
     "artist": "David Bowie",
     "lyrics": "./Space Oddity/lyrics",
     "duration": 316,
-    "source": "./api/Space Oddity/song.mp3",
+    "source": "./api/songs/Space Oddity/song.mp3",
     "playlist": "Chill"
   },
   {
@@ -146,7 +146,7 @@
     "artist": "Eminem",
     "lyrics": "./Godzilla/lyrics",
     "duration": 210,
-    "source": "./api/Godzilla/song.mp3",
+    "source": "./api/songs/Godzilla/song.mp3",
     "playlist": "Rap"
   },
   {
@@ -156,7 +156,7 @@
     "artist": "Eminem",
     "lyrics": "./Lose Yourself/lyrics",
     "duration": 320,
-    "source": "./api/Lose Yourself/song.mp3",
+    "source": "./api/songs/Lose Yourself/song.mp3",
     "playlist": "Rap"
   },
   {
@@ -166,7 +166,7 @@
     "artist": "Tom MacDonald",
     "lyrics": "./Fake Woke/lyrics",
     "duration": 244,
-    "source": "./api/Fake Woke/song.mp3",
+    "source": "./api/songs/Fake Woke/song.mp3",
     "playlist": "Rap"
   },
   {
@@ -176,7 +176,7 @@
     "artist": "Tom MacDonald",
     "lyrics": "./I Dont Care/lyrics",
     "duration": 266,
-    "source": "./api/I Dont Care/song.mp3",
+    "source": "./api/songs/I Dont Care/song.mp3",
     "playlist": "Rap"
   },
   {
@@ -186,7 +186,7 @@
     "artist": "Corps Husband",
     "lyrics": "./Agoraphobic/lyrics",
     "duration": 131,
-    "source": "./api/Agoraphobic/song.mp3",
+    "source": "./api/songs/Agoraphobic/song.mp3",
     "playlist": "Rap"
   },
   {
@@ -196,8 +196,8 @@
     "artist": "Disturbed",
     "lyrics": "./Indestructible/lyrics",
     "duration": 274,
-    "source": "./api/Indestructible/song.mp3",
-    "playlist": "Pop Rock"
+    "source": "./api/songs/Indestructible/song.mp3",
+    "playlist": "Rock"
   },
   {
     "id": "21",
@@ -206,7 +206,7 @@
     "artist": "MGMT",
     "lyrics": "./Little Dark Age/lyrics",
     "duration": 300,
-    "source": "./api/Little Dark Age/song.mp3",
+    "source": "./api/songs/Little Dark Age/song.mp3",
     "playlist": "Chill"
   },
   {
@@ -216,8 +216,8 @@
     "artist": "Disturbed",
     "lyrics": "./Down With The Sickness/lyrics",
     "duration": 216,
-    "source": "./api/Down With The Sickness/song.mp3",
-    "playlist": "Pop Rock"
+    "source": "./api/songs/Down With The Sickness/song.mp3",
+    "playlist": "Rock"
   },
   {
     "id": "23",
@@ -226,7 +226,7 @@
     "artist": "Breaking Benjamin",
     "lyrics": "./The Diary of Jane/lyrics",
     "duration": 198,
-    "source": "./api/The Diary of Jane/song.mp3",
+    "source": "./api/songs/The Diary of Jane/song.mp3",
     "playlist": "Pop Rock"
   },
   {
@@ -236,7 +236,77 @@
     "artist": "Stellar",
     "lyrics": "./Ashes/lyrics",
     "duration": 166,
-    "source": "./api/Ashes/song.mp3",
+    "source": "./api/songs/Ashes/song.mp3",
     "playlist": "Pop Rock"
+  },
+  {
+    "id": "25",
+    "name": "Rumbling",
+    "thumbnail": "",
+    "artist": "SiM",
+    "lyrics": "./Rumbling/lyrics",
+    "duration": 220,
+    "source": "./api/songs/Rumbling/song.mp3",
+    "playlist": "Rock"
+  },
+  {
+    "id": "26",
+    "name": "The Middle Of The Night",
+    "thumbnail": "",
+    "artist": "Loveless (Cover)",
+    "lyrics": "./The Middle Of The Night/lyrics",
+    "duration": 220,
+    "source": "./api/songs/The Middle Of The Night/song.mp3",
+    "playlist": "Pop Rock"
+  },
+  {
+    "id": "27",
+    "name": "Rusted Nail",
+    "thumbnail": "",
+    "artist": "In Flames",
+    "lyrics": "./Rusted Nail/lyrics",
+    "duration": 293,
+    "source": "./api/songs/Rusted Nail/song.mp3",
+    "playlist": "Rock"
+  },
+  {
+    "id": "28",
+    "name": "Lemme Freak",
+    "thumbnail": "",
+    "artist": "Lil Dicky",
+    "lyrics": "./Lemme Freak/lyrics",
+    "duration": 295,
+    "source": "./api/songs/Lemme Freak/song.mp3",
+    "playlist": "Rap"
+  },
+  {
+    "id": "29",
+    "name": "Waking The Demon",
+    "thumbnail": "",
+    "artist": "Bullets For My Valentine",
+    "lyrics": "./Waking The Demon/lyrics",
+    "duration": 248,
+    "source": "./api/songs/Waking The Demon/song.mp3",
+    "playlist": "Rock"
+  },
+  {
+    "id": "30",
+    "name": "Tears Dont Fall",
+    "thumbnail": "",
+    "artist": "Bullets For My Valentine",
+    "lyrics": "./Tears Dont Fall/lyrics",
+    "duration": 348,
+    "source": "./api/songs/Tears Dont Fall/song.mp3",
+    "playlist": "Rock"
+  },
+  {
+    "id": "31",
+    "name": "Paradise City",
+    "thumbnail": "",
+    "artist": "Guns N' Roses",
+    "lyrics": "./Paradise City/lyrics",
+    "duration": 405,
+    "source": "./api/songs/Paradise City/song.mp3",
+    "playlist": "Rock"
   }
 ]

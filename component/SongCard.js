@@ -44,13 +44,13 @@ export default function SongCard() {
 
     return (
       <div key={song.id} className={styles.song}>
-        <img onClick={() => videoHandler(song)} src={`/api/${song.name}/thumbnail.jpg`} className={styles.songImg} />
+        <img onClick={() => videoHandler(song)} src={`/api/songs/${song.name}/thumbnail.jpg`} className={styles.songImg} />
         <CardContent>
           <div className={styles.information}>
             <Avatar
               className={styles.avatar}
               alt={song.artist}
-              src={`/api/${song?.name}/artist.jpg`} />
+              src={`/api/songs/${song?.name}/artist.jpg`} />
             <Typography variant="h6" component="div">
               {song.artist}
             </Typography>

@@ -13,5 +13,15 @@
     "id": 3,
     "playlistName": "Rap",
     "playlistImage": "Rap_IMAGE"
+  },
+  {
+    "id": 4,
+    "playlistName": "Rock",
+    "playlistImage": "Rock_IMAGE"
+  },
+  {
+    "id": 5,
+    "playlistName": "50s/60s",
+    "playlistImage": "50s/60s_IMAGE"
   }
 ]

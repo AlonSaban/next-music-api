@@ -21,10 +21,10 @@ export default function Center() {
     <div className={styles.container}>
       <div className={styles.showCase}>
         <div className={styles.playlist}>
-          <h3 className={styles.playlistName}>{playlist}</h3>
           {playlistName ?
             <img src={`/api/playlists/${playlistName}_IMAGE.jpg`} className={styles.playlistCover} />
             : ''}
+          <h3 className={styles.playlistName}>{playlist}</h3>
         </div>
       </div>
       <div className={styles.card}>
