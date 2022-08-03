@@ -86,24 +86,28 @@
 
 .playlist {
   display: flex;
-  margin-bottom: 100px;
-  margin-left: 70px;
-  align-items: center;
-  text-align: center;
-  justify-items: baseline;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  /* align-items: baseline; */
+  /* justify-items: baseline; */
 }
 
 .playlistCover {
-  margin-left: 100px;
+  /* margin-left: 100px; */
   max-width: 700px;
   max-height: 290px;
+  border-radius: 30px;
+  border-style: groove;
+  border-color: rgb(158, 149, 226);
 }
 
 .playlistName {
-  display: flex;
-  align-self: flex-end;
   font-family: "Verdana", "Sans-serif";
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 0;
   margin-left: 20px;
+  /* margin-bottom: 30px; */
   font-size: 50px;
   font-weight: normal;
 }

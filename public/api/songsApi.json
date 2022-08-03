@@ -308,5 +308,15 @@
     "duration": 405,
     "source": "./api/songs/Paradise City/song.mp3",
     "playlist": "Rock"
+  },
+  {
+    "id": "32",
+    "name": "45",
+    "thumbnail": "",
+    "artist": "Shinedown",
+    "lyrics": "./45/lyrics",
+    "duration": 253,
+    "source": "./api/songs/45/song.mp3",
+    "playlist": "Rock"
   }
 ]

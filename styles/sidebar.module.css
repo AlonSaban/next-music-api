@@ -36,6 +36,10 @@
   transition: all 1s ease-in-out;
 }
 
+.icon {
+  width: 150px;
+}
+
 .searchInput {
   display: flex;
   align-items: baseline;
