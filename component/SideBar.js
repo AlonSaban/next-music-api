@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useRecoilState } from 'recoil';
 import { playlistState, playlistCoverState } from '../atoms/playlistAtom'
-import { PlaylistPlay, HomeOutlined, Search, FavoriteBorderOutlined, Favorite, LibraryMusic, Home } from '@material-ui/icons';
+import { Search, LibraryMusic } from '@material-ui/icons';
 import { Button } from '@material-ui/core';
 import styles from '../styles/sidebar.module.css'
 import songsApi from '../public/api/songsApi.json'
@@ -18,7 +18,6 @@ function SideBar() {
   }
 
   useEffect(() => {
-    console.log('its in')
     for (let i = 0; i < songsApi.length; i++) {
       if (songsApi[i].name === searchValue) {
         console.log(`its a match ${songsApi[i].name}`)

@@ -1,10 +1,9 @@
 import { useSetRecoilState, useRecoilValue } from 'recoil'
 import { songState, songIdSate } from '../atoms/songsAtom'
 import { playlistCoverState, playlistState } from '../atoms/playlistAtom'
-import { Avatar, Card, CardContent, CardMedia, CircularProgress, Grid, Typography } from '@material-ui/core';
+import { Avatar, CardContent, CircularProgress, Typography } from '@material-ui/core';
 import styles from '../styles/songsCard.module.css'
 import songsApi from '../public/api/songsApi.json'
-import playlistsApi from '../public/api/playlistsApi.json'
 
 
 export default function SongCard() {
@@ -12,7 +11,6 @@ export default function SongCard() {
   const setNewSongState = useSetRecoilState(songState)
   const setNewSongIdState = useSetRecoilState(songIdSate)
   const playlistId = useRecoilValue(playlistState);
-  const playlistImage = useRecoilValue(playlistCoverState);
   const songsArray = [];
 
   for (let i = 0; i < songsApi.length; i++) {

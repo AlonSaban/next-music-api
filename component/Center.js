@@ -1,5 +1,5 @@
-import { useRecoilValue, useRecoilState } from 'recoil'
-import { playlistCoverState, playlistState } from '../atoms/playlistAtom';
+import { useRecoilValue } from 'recoil'
+import { playlistState } from '../atoms/playlistAtom';
 import SongCard from './SongCard'
 import styles from '../styles/center.module.css';
 import playlistsApi from '../public/api/playlistsApi.json'
