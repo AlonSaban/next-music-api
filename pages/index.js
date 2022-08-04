@@ -12,6 +12,7 @@ export default function Home() {
         <title>Musixx</title>
         <meta name="description" content="Musixx" />
         <link rel="icon" href="/icon.png" />
+        <link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' />
       </Head>
 
       <div className={styles.main}>

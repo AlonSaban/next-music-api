@@ -69,14 +69,14 @@ function SideBar() {
 
   return (
     <div className={styles.container}>
-      {/* <img src={'/icon.png'} className={styles.icon} /> */}
+      <h1 className={styles.neonText}>Musicllly</h1>
       <ul className={styles.containerList}>
-        <li className={styles.liSearch}>
-          {/* <div className={styles.search}>
+        {/* <li className={styles.liSearch}>
+          <div className={styles.search}>
             <input type="search" className={styles.searchInput} onChange={(e) => search(e)} />
             <Search fontSize='large' />
-          </div> */}
-        </li>
+          </div>
+        </li> */}
         {playlistsNames}
       </ul>
       <div>

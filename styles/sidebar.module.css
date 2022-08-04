@@ -1,14 +1,19 @@
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
   width: 32vh;
+  height: 100%;
+  background-color: rgb(15, 15, 16);
+  background-repeat: repeat-y;
   align-items: baseline;
   padding: 1rem 2rem 1rem 2.3rem;
   margin-bottom: 50px;
+  margin-right: 50px;
   color: white;
-  justify-content: space-around;
-  overflow-x: hidden;
-  overflow-y: auto;
+  /* overflow-x: hidden; */
+  /* overflow-y: auto; */
 }
 
 .containerList {
@@ -59,6 +64,31 @@
   width: 260px;
   height: 190px;
   border-radius: 10px;
+}
+
+.neonText {
+  font-size: 4.2rem;
+  font-family: "Sacramento";
+  animation: pulsate 2s infinite alternate;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;
+  color: #fff;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 3px #fff,
+    0 0 5px #bc13fe,
+    0 0 30px #bc13fe,
+    0 0 40px #bc13fe,
+    0 0 50px #bc13fe,
+    0 0 60px #bc13fe;
 }
 
 .icon {
@@ -147,5 +177,37 @@
 
   to {
     transform: scale(1);
+  }
+}
+
+@keyframes pulsate {
+
+  100% {
+
+    text-shadow:
+
+
+      0 0 1px #fff,
+      0 0 2px #fff,
+      0 0 3px #fff,
+      0 0 5px #bc13fe,
+      0 0 30px #bc13fe,
+      0 0 40px #bc13fe,
+      0 0 50px #bc13fe,
+      0 0 60px #bc13fe;
+  }
+
+  0% {
+
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #bc13fe,
+      0 0 80px #bc13fe,
+      0 0 90px #bc13fe,
+      0 0 100px #bc13fe,
+      0 0 120px #bc13fe;
+
   }
 }

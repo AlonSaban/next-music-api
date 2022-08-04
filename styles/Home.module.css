@@ -17,14 +17,14 @@
   display: none;
 }
 
-.sidebar {
-  height: auto;
+/* .sidebar {
+  height: 100%;
   display: block;
   min-width: auto;
   overflow: hidden;
   background-repeat: repeat-y;
   background-color: rgb(15, 15, 16);
-}
+} */
 
 .sidebar::-webkit-scrollbar {
   display: none;
