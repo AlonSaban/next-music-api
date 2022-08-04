@@ -41,8 +41,8 @@ export default function SongCard() {
   const song = sortArray.map(song => {
 
     return (
-      <div key={song.id} className={styles.song}>
-        <img onClick={() => videoHandler(song)} src={`/api/songs/${song.name}/thumbnail.jpg`} className={styles.songImg} />
+      <div key={song.id} onClick={() => videoHandler(song)} className={styles.song}>
+        <img src={`/api/songs/${song.name}/thumbnail.jpg`} className={styles.songImg} />
         <CardContent>
           <div className={styles.information}>
             <Avatar
