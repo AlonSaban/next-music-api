@@ -37,7 +37,7 @@
     "lyrics": "./Do I wanna know/lyrics",
     "duration": 273,
     "source": "./api/songs/Do I wanna know/song.mp3",
-    "playlist": "Chill"
+    "playlist": "Pop Rock"
   },
   {
     "id": "5",
@@ -318,5 +318,25 @@
     "duration": 253,
     "source": "./api/songs/45/song.mp3",
     "playlist": "Hard Rock"
+  },
+  {
+    "id": "33",
+    "name": "Streets",
+    "thumbnail": "",
+    "artist": "Doja Cat",
+    "lyrics": "./Streets/lyrics",
+    "duration": 227,
+    "source": "./api/songs/Streets/song.mp3",
+    "playlist": "Chill"
+  },
+  {
+    "id": "34",
+    "name": "Make Me Wanna Die",
+    "thumbnail": "",
+    "artist": "The Pretty Reckless",
+    "lyrics": "./Make Me Wanna Die/lyrics",
+    "duration": 234,
+    "source": "./api/songs/Make Me Wanna Die/song.mp3",
+    "playlist": "Pop Rock"
   }
 ]

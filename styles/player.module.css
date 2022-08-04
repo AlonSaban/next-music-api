@@ -34,7 +34,9 @@
 
 .progressbar {
   width: 760px;
+  transition: 0.2s;
 }
+
 
 .video {
   height: 0;
@@ -74,9 +76,6 @@
   position: relative;
   left: 50px;
 }
-
-
-
 
 .durationValue {
   margin: 15px;

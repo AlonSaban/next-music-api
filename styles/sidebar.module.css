@@ -112,10 +112,10 @@
   font-size: 25px;
 }
 
-.playlist:active {
+.li:active {
   /* font-size: 27px; */
   /* transition: 0.7s ease; */
-  animation: press 0.6s 1 linear;
+  animation: press 1s 1 linear;
 }
 
 .button {
@@ -142,7 +142,7 @@
   }
 
   50% {
-    transform: scale(0.95);
+    transform: scale(0.8);
   }
 
   to {
