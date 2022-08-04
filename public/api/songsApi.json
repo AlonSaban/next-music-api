@@ -197,7 +197,7 @@
     "lyrics": "./Indestructible/lyrics",
     "duration": 274,
     "source": "./api/songs/Indestructible/song.mp3",
-    "playlist": "Rock"
+    "playlist": "Hard Rock"
   },
   {
     "id": "21",
@@ -217,7 +217,7 @@
     "lyrics": "./Down With The Sickness/lyrics",
     "duration": 216,
     "source": "./api/songs/Down With The Sickness/song.mp3",
-    "playlist": "Rock"
+    "playlist": "Hard Rock"
   },
   {
     "id": "23",
@@ -247,7 +247,7 @@
     "lyrics": "./Rumbling/lyrics",
     "duration": 220,
     "source": "./api/songs/Rumbling/song.mp3",
-    "playlist": "Rock"
+    "playlist": "Hard Rock"
   },
   {
     "id": "26",
@@ -267,7 +267,7 @@
     "lyrics": "./Rusted Nail/lyrics",
     "duration": 293,
     "source": "./api/songs/Rusted Nail/song.mp3",
-    "playlist": "Rock"
+    "playlist": "Hard Rock"
   },
   {
     "id": "28",
@@ -287,7 +287,7 @@
     "lyrics": "./Waking The Demon/lyrics",
     "duration": 248,
     "source": "./api/songs/Waking The Demon/song.mp3",
-    "playlist": "Rock"
+    "playlist": "Hard Rock"
   },
   {
     "id": "30",
@@ -297,7 +297,7 @@
     "lyrics": "./Tears Dont Fall/lyrics",
     "duration": 348,
     "source": "./api/songs/Tears Dont Fall/song.mp3",
-    "playlist": "Rock"
+    "playlist": "Hard Rock"
   },
   {
     "id": "31",
@@ -307,7 +307,7 @@
     "lyrics": "./Paradise City/lyrics",
     "duration": 405,
     "source": "./api/songs/Paradise City/song.mp3",
-    "playlist": "Rock"
+    "playlist": "Hard Rock"
   },
   {
     "id": "32",
@@ -317,6 +317,6 @@
     "lyrics": "./45/lyrics",
     "duration": 253,
     "source": "./api/songs/45/song.mp3",
-    "playlist": "Rock"
+    "playlist": "Hard Rock"
   }
 ]
