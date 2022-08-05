@@ -8,9 +8,9 @@
   background-color: rgb(15, 15, 16);
   background-repeat: repeat-y;
   align-items: baseline;
-  padding: 1rem 2rem 1rem 2.3rem;
-  margin-bottom: 50px;
-  margin-right: 50px;
+  padding: 1rem 0rem 1rem 1rem;
+  /* margin-bottom: 50px; */
+  /* margin-right: 50px; */
   color: white;
   /* overflow-x: hidden; */
   /* overflow-y: auto; */
@@ -67,7 +67,8 @@
 }
 
 .neonText {
-  font-size: 4.2rem;
+  font-size: 4.4vh;
+  width: 20vh;
   font-family: "Sacramento";
   animation: pulsate 2s infinite alternate;
   border: 0.2rem solid #fff;
