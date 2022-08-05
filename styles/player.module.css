@@ -8,11 +8,6 @@
   /* left: 60px; */
 }
 
-.container:after {
-  position: absolute;
-  content: '';
-}
-
 .duration {
   position: relative;
   display: flex;
@@ -33,7 +28,7 @@
 }
 
 .progressbar {
-  width: 760px;
+  width: 40vh;
   transition: 0.2s;
 }
 
@@ -49,7 +44,7 @@
   font-size: 100px;
   justify-content: center;
   position: relative;
-  right: 200px;
+  right: 10vh;
 }
 
 .button {

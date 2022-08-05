@@ -1,17 +1,18 @@
 .container {
   display: inline-grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 60vh 60vh 60vh;
   width: 100%;
   height: auto;
   color: white;
   background-color: black;
-  padding-left: 10vh;
+  padding-top: 2vh;
+  padding-left: 6vh;
 }
 
 .song {
   /* display: block; */
-  width: 300px;
-  height: 390px;
+  width: 24vh;
+  height: 30vh;
   background-color: white;
   color: black;
   margin-bottom: 80px;
@@ -36,13 +37,13 @@
 .song:active {
   /* width: 290px; */
   /* height: 380px; */
-  animation: press 0.31s 1 linear;
+  animation: press 0.31s linear;
 }
 
 .songImg {
   display: flex;
-  width: 300px;
-  height: 212px;
+  width: 24vh;
+  height: 16vh;
   border-radius: 10px;
 
 }
@@ -75,13 +76,12 @@
   }
 }
 
-@keyframes bounce {
-  50% {
-    transform: rotate(5deg) translate(20px, -50px);
+@keyframes click {
+  0% {
+    transform: rotate(0deg);
   }
 
-  to {
-    transform: scale(0.9) rotate(10deg) translate(50px, -80px);
-    opacity: 0;
+  100% {
+    transform: rotate(360deg)
   }
 }
