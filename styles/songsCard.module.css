@@ -11,7 +11,7 @@
 
 .song {
   width: 24vh;
-  height: 30vh;
+  height: auto;
   background-color: white;
   color: black;
   margin-bottom: 5vh;
@@ -36,7 +36,7 @@
 .songImg {
   display: flex;
   width: 24vh;
-  height: 16vh;
+  height: 14vh;
   border-radius: 10px;
 
 }
@@ -47,9 +47,13 @@
   font-weight: normal;
 }
 
+.artist {
+  font-family: Helvetica;
+  font-weight: normal;
+}
+
 .information {
   display: flex;
-  padding: 2px 0 10px 0;
   align-items: center;
 }
 
