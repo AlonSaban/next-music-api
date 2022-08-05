@@ -41,6 +41,12 @@
 
 }
 
+.title {
+  font-size: 2rem;
+  font-family: Helvetica;
+  font-weight: normal;
+}
+
 .information {
   display: flex;
   padding: 2px 0 10px 0;
