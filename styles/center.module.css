@@ -1,43 +1,27 @@
 .container {
   min-height: 100vh;
-  width: 86%;
-  scrollbar-width: none;
-  margin-bottom: 80px;
-  margin-left: 29vh;
-}
-
-.containerList {
-  display: flex;
   width: 100%;
-  flex-direction: column;
-  align-items: baseline;
-  justify-items: center;
-  list-style-type: none;
-  color: white;
-  background-color: black;
-  font-size: 17px;
+  scrollbar-width: none;
+  margin-bottom: 5vh;
+  margin-left: 29vh;
 }
 
 .showCase {
   display: flex;
-  /* position: absolute; */
   width: 100%;
   align-items: flex-end;
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.4, rgb(23, 59, 70)), color-stop(0.01, rgba(0, 0, 0, 0.205)));
   overflow-y: hidden;
-  height: 400px;
+  height: 32vh;
 }
 
 .playlist {
   display: flex;
   margin-bottom: 5vh;
   margin-left: 10px;
-  /* align-items: baseline; */
-  /* justify-items: baseline; */
 }
 
 .playlistCover {
-  /* margin-left: 100px; */
   max-width: 35vh;
   max-height: 20vh;
   border-radius: 30px;
@@ -50,69 +34,13 @@
   display: flex;
   flex-direction: column-reverse;
   margin-top: 0;
-  margin-left: 20px;
+  margin-left: 2vh;
   /* margin-bottom: 30px; */
-  font-size: 50px;
+  font-size: 5vh;
   font-weight: normal;
 }
 
 .card {
   width: 100%;
   height: 100%;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-
-.song {
-  display: flex;
-  justify-content: center;
-}
-
-.coverImage {
-  margin: 10px;
-  width: 40px;
-  height: 40px;
-}
-
-
-
-.li {
-  display: flex;
-}
-
-.user {
-  display: flex;
-  flex-direction: row-reverse;
-  width: auto;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 30px;
-  background-color: #1e1e1ec2;
-  padding-right: 3px;
-  padding-left: 7px;
-  border-color: #1e1e1ec2;
-  margin: 0.8rem;
-  opacity: 80%;
-}
-
-.user:hover {
-  opacity: 90%;
-  cursor: pointer;
-}
-
-.img {
-  margin-left: 0.5rem;
-  max-width: 55px;
-  height: auto;
-  border-radius: 50%;
-}
-
-.name {
-  font-weight: normal;
-  font-size: 17px;
 }

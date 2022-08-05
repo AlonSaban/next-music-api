@@ -1,29 +1,24 @@
 .container {
   display: inline-grid;
-  grid-template-columns: 60vh 60vh 60vh;
+  grid-template-columns: auto auto auto;
   width: 100%;
   height: auto;
   color: white;
   background-color: black;
   padding-top: 2vh;
-  padding-left: 6vh;
+  padding-left: 10vh;
 }
 
 .song {
-  /* display: block; */
   width: 24vh;
   height: 30vh;
   background-color: white;
   color: black;
-  margin-bottom: 80px;
-  margin-top: 20px;
-  /* margin-right: 40px; */
+  margin-bottom: 5vh;
+  margin-top: 3vh;
   border: 1px solid rgba(50, 50, 50, 0.8);
   border-radius: 10px;
-  /* padding: 20px; */
-  /* text-align: center; */
   transition: all 0.5s ease-in-out;
-
 }
 
 .song:hover {
@@ -35,8 +30,6 @@
 }
 
 .song:active {
-  /* width: 290px; */
-  /* height: 380px; */
   animation: press 0.31s linear;
 }
 
@@ -55,12 +48,9 @@
 }
 
 .avatar {
-  margin-right: 12px;
+  margin-right: 1vh;
 }
 
-.video {
-  height: 20px;
-}
 
 @keyframes press {
   0% {
