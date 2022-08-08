@@ -96,7 +96,6 @@ function Player() {
     if (videoRef.current) {
       videoRef.current.volume = (newValue / 100)
       setValue(Math.floor(videoRef.current.volume * 100));
-      console.log(videoRef.current.volume * 100)
     } else {
       setValue(event.target.ariaValueNow)
     }
