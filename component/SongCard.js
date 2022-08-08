@@ -49,13 +49,13 @@ export default function SongCard() {
               className={styles.avatar}
               alt={song.artist}
               src={`/api/songs/${song?.name}/artist.jpg`} />
-            <Typography variant="h6" component="div">
+            <h3 className={styles.artist}>
               {song.artist}
-            </Typography>
+            </h3>
           </div>
-          <Typography variant="h4">
+          <h1 className={styles.title}>
             {song.name}
-          </Typography>
+          </h1>
         </CardContent>
       </div>
     )

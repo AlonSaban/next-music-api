@@ -48,13 +48,15 @@
   /* position: relative; */
   /* left: 50px; */
   display: flex;
-  align-items: baseline;
+  align-content: space-between;
+  align-items: center;
   min-width: 20vh;
 }
 
 .volumeValue {
   /* position: relative; */
   /* left: 50px; */
+  margin-left: 2vh;
 }
 
 .durationValue {

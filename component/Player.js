@@ -93,13 +93,19 @@ function Player() {
   };
 
   const handleSliderChange = (event, newValue) => {
-    videoRef.current.volume = (newValue / 100)
+    if (videoRef.current) {
+      videoRef.current.volume = (newValue / 100)
+      setValue(Math.floor(videoRef.current.volume * 100));
+      console.log(videoRef.current.volume * 100)
+    } else {
+      setValue(event.target.ariaValueNow)
+    }
+
     if (newValue > 60) setVolume(<VolumeUp fontSize="large" />)
     if (newValue <= 60) setVolume(<VolumeDown fontSize="large" />)
     if (newValue < 30) setVolume(<VolumeMute fontSize="large" />)
     if (newValue === 0) setVolume(<VolumeOff fontSize="large" />)
 
-    setValue(event.target.ariaValueNow);
   };
 
   const handleChange = (e) => {
@@ -154,7 +160,7 @@ function Player() {
         <Button onClick={setMute} color="inherit">
           {isMuted ? <VolumeOff fontSize="large" /> : volume}
         </Button>
-        <Slider onChange={handleSliderChange} defaultValue={75} />
+        <Slider onChange={handleSliderChange} min={0} max={100} defaultValue={75} />
         <div className={styles.volumeValue}>
           {value}
         </div>

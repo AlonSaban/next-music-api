@@ -10,7 +10,7 @@
 }
 
 .song {
-  width: 24vh;
+  width: 25vh;
   height: auto;
   background-color: white;
   color: black;
@@ -35,7 +35,7 @@
 
 .songImg {
   display: flex;
-  width: 24vh;
+  width: 25vh;
   height: 14vh;
   border-radius: 10px;
 
